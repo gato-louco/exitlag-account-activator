@@ -3,7 +3,6 @@ import ssl
 from random import randint
 from hashlib import sha256
 import websockets
-from os import system
 
 # exitlag's websocket server uses SSL, 
 # but the certificate is expired,
