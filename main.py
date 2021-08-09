@@ -3,6 +3,7 @@ import ssl
 from random import randint
 from hashlib import sha256
 import websockets
+from os import system
 
 # exitlag's websocket server uses SSL, 
 # but the certificate is expired,
@@ -16,14 +17,14 @@ ssl_context.verify_mode = ssl.CERT_NONE
 # HIGHLY INSECURE
 # todo kluge
 
-
-# change the email here!
-email = "mybanana.candy@gmail.com"
 print("Made by GatoLouco, check https://github.com/gato-louco for updates and a tutorial")
 print("This script activates a 3 days trial account for exitlag")
 print("This script supposes that the password of the exitlag account's is gatolouco")
-print("version v1")
-input("Insert the account's email: ")
+print("version v1.0")
+print("")
+print("This script is created for educational purposes, I am not responsible for how the script is being used.")
+print("")
+email = input("Insert the account's email: ")
 # it is a password hash, it means 'gatolouco'. do not change it, otherwise it won't work :)
 password = "38cf4d8080c1a66172c4a91e76b822140f029e10a00e3615be6eb8a0f3331ffd"  # some_hash('gatolouco'+unknow_key)
 
@@ -89,6 +90,7 @@ async def initialize_ws_and_send_request():
         response = await ws.recv()
         # priting the response
         pb(response, 1)
+        system("pause")
 
 
 asyncio.get_event_loop().run_until_complete(initialize_ws_and_send_request())
