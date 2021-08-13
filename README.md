@@ -1,11 +1,11 @@
 # Exitlag Account Activator
-<img src="https://www.exitlag.com/img/exitlag.svg" width=120>
+<img src="https://github.com/gato-louco/exitlag-account-activator/blob/main/images/gitlogo.png" width=120>
 
  Activate exitlag trial accounts (unlimited trial accounts)
 
 ## ⭐If you want to support me, follow me on github and star the project.⭐
 
-<img src="https://user-images.githubusercontent.com/53904508/128664596-e908f0d1-c222-47f4-8ce4-53d368e281cb.png">
+<img src="https://github.com/gato-louco/exitlag-account-activator/blob/main/images/activated.png">
 
 ## DISCLAIMER
 This script is created for educational purposes only, I am not responsible for the misuse of this product.
