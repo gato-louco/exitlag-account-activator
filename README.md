@@ -2,6 +2,8 @@
 <img src="https://github.com/itsOwen/exitlag-account-activator/blob/main/images/gitlogo.png" width=120>
 
  Activate exitlag trial accounts (unlimited trial accounts)
+ 
+ <img src="https://github.com/itsOwen/exitlag-account-activator/blob/main/images/GUI.jpg">
 
 ## ⭐If you want to support me, follow me on github and star the project.⭐
 
