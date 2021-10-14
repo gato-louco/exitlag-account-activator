@@ -24,7 +24,7 @@ print("version v1.0")
 print("")
 print("This script is created for educational purposes, I am not responsible for how the script is being used.")
 print("")
-email = input("Insert the account's email: ")
+email = input("Insert the account's email:pahan1986@hotmail.com ")
 # it is a password hash, it means 'gatolouco'. do not change it, otherwise it won't work :)
 password = "38cf4d8080c1a66172c4a91e76b822140f029e10a00e3615be6eb8a0f3331ffd"  # some_hash('gatolouco'+unknow_key)
 
